@@ -5,10 +5,10 @@
 | 문제등급 | 코드 바로가기              | 풀이된 건 수        | 깃헙등재 건 수    | 완료 건 수 | 총 문제 수 |  상태             |
 | :--: | :--------------------------: | :-----------------: | :------:  | :---------:  | :------: |:---------------:|
 | bronze5 | [Code](./boj/bronze5) | 3 | 4 | 19 | 62 | ![status][Doing] |
-| bronze4 | &nbsp | 0 | 0 | 5 | 112 | ![status][Doing] |
-| bronze3 | &nbsp | 0 | 0 | 15 | 408 | ![status][Doing] |
-| bronze2 | &nbsp | 0 | 0 | 13 | 728 | ![status][Doing] |
-| bronze1 | &nbsp | 0 | 0 | 0 | 452 | ![status][Doing] |
+| bronze4 | - | 0 | 0 | 5 | 112 | ![status][Doing] |
+| bronze3 | - | 0 | 0 | 15 | 408 | ![status][Doing] |
+| bronze2 | - | 0 | 0 | 13 | 728 | ![status][Doing] |
+| bronze1 | - | 0 | 0 | 0 | 452 | ![status][Doing] |
 
 [![myvelog](https://img.shields.io/badge/내%20백준%20알고리즘%20정리%20-바로가기-18D6A5)](https://velog.io/@osk3856/series/BOJ)
 
