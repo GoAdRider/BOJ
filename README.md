@@ -10,7 +10,11 @@
 | bronze2 | - | 0 | 0 | 13 | 728 | ![status][Doing] |
 | bronze1 | - | 0 | 0 | 0 | 452 | ![status][Doing] |
 
+## 풀이 참고
+
+  
 [![myvelog](https://img.shields.io/badge/내%20백준%20알고리즘%20정리%20-바로가기-18D6A5)](https://velog.io/@osk3856/series/BOJ)
+
 
 
 [DOING]: https://img.shields.io/badge/-진행%20중-31AE0F
