@@ -14,7 +14,7 @@ import java.io.OutputStreamWriter;
  
  
  --예제출력
-      /~\
+     /~\
     ( oo|
     _\=/_
    /  _  \
