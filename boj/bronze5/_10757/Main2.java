@@ -39,7 +39,6 @@ public class Main2 {
             // 나머지 값은 문자열에 추가해준다. 
             int c = sum%10; // 3 7 3 2 2 순서로 계산됨
             remainder = sum/10; // 1 0 1 1 0 
-            System.out.println(remainder);
             /*
              
              StringBuilder 객체의 append 와 insert 차이
@@ -66,7 +65,7 @@ public class Main2 {
         if(remainder > 0) {
             builder.insert(0, remainder);
         }
-		bw.write(builder.toString());
+		bw.write(builder.toString());//22373
 		bw.flush(); 
 		bw.close();
     }
