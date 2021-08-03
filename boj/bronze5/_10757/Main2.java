@@ -15,30 +15,47 @@ public class Main2 {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
  
         // 예제 입력 ) 6725 15648
-        String []inputs = br.readLine().split(" "); 
+        String[] nums = br.readLine().split(" "); 
         
-        String A = inputs[0];//6725
-        String B = inputs[1];//15648
+        String A = nums[0];//6725
+        String B = nums[1];//15648
  
-        int len1 = A.length() - 1; // 3
-        int len2 = B.length() - 1; // 4
+        int lenA = A.length() - 1; // 3
+        int lenB = B.length() - 1; // 4
         
-        int remainder = 0 ;
-        StringBuilder builder = new StringBuilder();
+        int count = 0 ;
+        StringBuilder sb = new StringBuilder();
         
-        while(len1 >= 0 || len2 >= 0) {
+        while(lenA >= 0 || lenB >= 0) {
  
-            // 문자를 정수형으로 변경.
-            // 만약 현재 덧셀할 자리수를 초과 한경우 0 으로 간주한다. 
-            int c1 = len1 < 0 ? c1 = 0 : A.charAt(len1) - '0'; // 5 2 7 6 0 순서로 뽑힘
-            int c2 = len2 < 0 ? c2 = 0 : B.charAt(len2) - '0'; // 8 4 6 5 1 순서로 뽑힘
+        	
+        	/*
+        	char 의 특징은
+        	문자를 변수에 대입하면, 문자 그대로 저장되는 것이 아니라 그문자에 해당하는 정수 값(아스키 코드값) 이 저장된다
+        	
+        	해결법-1)
+        	A.charAt(len1)-'0'   : int 형으로 변환 됨
+        	
+        	해결법-2)
+        	Character.getNumericValue(A.charAt(len1))
+        	 : wrapper class 중 Character에 char형을 int형으로 바꾸는 메소드가 있었다. 
+        	
+        	 */
+        	
+        	// 두 숫자의 자리수가 맞지 않을 경우 
+        	//ex) 6725 15648 ==> 06725 15648
+            int temp1 = 
+            		lenA < 0 ? temp1 = 0 : 
+            			Character.getNumericValue(A.charAt(lenA)); // 5 2 7 6 0 순서로 뽑힘
+            int temp2 = 
+            		lenB < 0 ? temp2 = 0 : 
+            			Character.getNumericValue(B.charAt(lenB)); // 8 4 6 5 1 순서로 뽑힘
             
             
-            int sum =  c1+c2 + remainder; // 13 7 13 12 2 순서로 계산됨
-            // 자리수를 더한 값에서 몫은 다음 자리수 덧셈을 위해 저장해두고 
-            // 나머지 값은 문자열에 추가해준다. 
-            int c = sum%10; // 3 7 3 2 2 순서로 계산됨
-            remainder = sum/10; // 1 0 1 1 0 
+            int sum =  temp1+temp2 + count; // 13 7 13 12 2 순서로 계산됨
+
+
+
             /*
              
              StringBuilder 객체의 append 와 insert 차이
@@ -56,18 +73,20 @@ public class Main2 {
              "ABzCD"
              
              */
-            builder.insert(0, c);//
+            sb.insert(0, sum%10);//계속 가장 왼쪽에 숫자를 추가하게 된다.
             
-            len1--; // 3 2 1 0 -1
-            len2--; // 4 3 2 1 0
+            // 자릿 수 끼리의 계산이 10이 넘어갈때 받는 수 = count
+            count = sum/10; // 1 0 1 1 0 
+            
+            lenA--; // 3 2 1 0 -1
+            lenB--; // 4 3 2 1 0
         }
  
-        if(remainder > 0) {
-            builder.insert(0, remainder);
+        if(count > 0) {
+        	sb.insert(0, count);
         }
-		bw.write(builder.toString());//22373
+		bw.write(sb.toString());//22373
 		bw.flush(); 
 		bw.close();
     }
- 
 }
