@@ -28,4 +28,4 @@
 
 
 [DOING]: https://img.shields.io/badge/-진행%20중-31AE0F
-[DONE]: https://img.shields.io/badge/-완%20료-31AE0F
+[DONE]: https://img.shields.io/badge/-완%20료-006EBD
