@@ -20,7 +20,6 @@ public class Main {
 		
 		double result = Math.pow(c, 2) / (Math.pow(a, 2) + Math.pow(b, 2));
 		
-		
 		bw.write(String.valueOf((int)Math.sqrt(result * Math.pow(a, 2)) + " " + (int)Math.sqrt(result * Math.pow(b, 2))));
 		bw.flush(); 
 		bw.close();
