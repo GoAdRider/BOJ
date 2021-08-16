@@ -17,7 +17,16 @@ public class Main {
 		int D = Integer.parseInt(br.readLine());
 		int P = Integer.parseInt(br.readLine());
 
-		bw.write("hi");
+		A = A*P;
+
+		if(C<P)
+			B= B+(P-C)*D;
+
+		A= A>=B ? B : A;
+
+		sb.append(A);
+
+		bw.write(sb.toString());
 		bw.flush();
 		bw.close();
     }
