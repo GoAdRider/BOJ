@@ -1,4 +1,4 @@
-package _5339;
+package boj.bronze5._5339;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;

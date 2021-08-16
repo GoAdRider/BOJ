@@ -1,4 +1,4 @@
-package _2530;
+package boj.bronze4._2530;
 
 /*
 입력

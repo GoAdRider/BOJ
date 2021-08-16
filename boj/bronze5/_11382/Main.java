@@ -1,4 +1,4 @@
-package _11382;
+package boj.bronze5._11382;
 
 /*
 

@@ -1,4 +1,4 @@
-package _9653;
+package boj.bronze5._9653;
 
 /*
      8888888888  888    88888
