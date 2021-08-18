@@ -1,4 +1,4 @@
-package boj.bronze5._20492;
+package bronze5._20492;
 
 /*
 1. 전체 상금의 22%를 제세공과금으로 납부하는 경우

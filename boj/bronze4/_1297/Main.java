@@ -1,4 +1,4 @@
-package boj.bronze4._1297;
+package bronze4._1297;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;

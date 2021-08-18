@@ -1,4 +1,4 @@
-package boj.bronze5._2475;
+package bronze5._2475;
 
 import java.util.*;
 import java.io.*;

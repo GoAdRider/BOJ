@@ -1,4 +1,4 @@
-package boj.bronze4._2480;
+package bronze4._2480;
 
 /*
 문제

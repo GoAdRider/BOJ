@@ -1,4 +1,4 @@
-package boj.bronze5._6749;
+package bronze5._6749;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.IOException;
