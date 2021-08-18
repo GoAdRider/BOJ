@@ -8,43 +8,22 @@
             "type": "java",
             "name": "Launch Main",
             "request": "launch",
-            "mainClass": "Main",
+            "mainClass": "bronze4._13866.Main",
             "projectName": "BOJ_94cd5298"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}",
+            "jdkpath": "C:/Program Files/Java/jdk-11.0.12/bin"
         },
         {
             "type": "java",
             "name": "Launch Main",
             "request": "launch",
-            "mainClass": "boj.bronze4._11943.Main",
+            "mainClass": "bronze4._14264.Main",
             "projectName": "BOJ_94cd5298"
-        },
-        {
-            "type": "java",
-            "name": "Launch Main",
-            "request": "launch",
-            "mainClass": "boj.bronze4._11282.Main",
-            "projectName": "BOJ_94cd5298"
-        },
-        {
-            "type": "java",
-            "name": "Launch Main",
-            "request": "launch",
-            "mainClass": "boj.bronze4._10797.Main",
-            "projectName": "BOJ_94cd5298"
-        },
-        {
-            "type": "java",
-            "name": "Launch Main",
-            "request": "launch",
-            "mainClass": "boj.bronze4._5893.Main",
-            "projectName": "BOJ_94cd5298"
-        },
-        {
-            "type": "pwa-msedge",
-            "request": "launch",
-            "name": "Launch Edge against localhost",
-            "url": "http://localhost:8080",
-            "webRoot": "${workspaceFolder}"
         }
     ]
 }

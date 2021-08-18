@@ -11,6 +11,11 @@ public class Main {
 	private static BufferedReader br = new BufferedReader(new InputStreamReader(System.in)); 
 	private static StringBuilder sb = new StringBuilder();	
     public static void main(String[] args) throws IOException {
-        Math.sqrt(3);
+        double L = Double.parseDouble(br.readLine());
+        
+        sb.append(Math.sqrt(3)*L*L/4);
+        bw.write(sb.toString());
+        bw.flush();
+        bw.close();
     }
 }
