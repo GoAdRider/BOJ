@@ -1,3 +1,5 @@
+package boj.bronze4._11948;
+
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.IOException;
