@@ -9,8 +9,6 @@ public class Main {
 	private static BufferedReader br = new BufferedReader(new InputStreamReader(System.in)); 
 	private static StringBuilder sb = new StringBuilder();	
     public static void main(String[] args) throws IOException {
-        String str="";
-        
         int[] subjects= new int[6];
         int sum =0;
         for(int i =0; i<6; i++){
