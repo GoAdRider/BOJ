@@ -5,8 +5,8 @@
 | 문제등급 | 코드 바로가기              | 풀이된 건 수        | 해결 건 수 | 총 문제 수 |  상태             |
 | :--: | :--------------------------: | :-----------------: | :---------:  | :------: |:---------------:|
 | bronze5 | [Code](./boj/bronze5) | 8 | 62 | 62 | ![status][DONE] |
-| bronze4 | [Code](./boj/bronze4) | 1 | 41 | 112 | ![status][Doing] |
-| bronze3 | [Code](./boj/bronze3) | 0 | 16 | 412 | ![status][Doing] |
+| bronze4 | [Code](./boj/bronze4) | 1 | 48 | 112 | ![status][Doing] |
+| bronze3 | [Code](./boj/bronze3) | 0 | 18 | 412 | ![status][Doing] |
 
 ## 풀이 참고
 
