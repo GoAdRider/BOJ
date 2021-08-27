@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Main2",
+            "request": "launch",
+            "mainClass": "bronze3._1964.Main2",
+            "projectName": "BOJ_94cd5298"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "bronze3._1964.Main",
+            "projectName": "BOJ_94cd5298"
+        },
+        {
+            "type": "java",
             "name": "Launch Main",
             "request": "launch",
             "mainClass": "bronze3._1598.Main",
