@@ -15,7 +15,7 @@ public class Main {
     public static void main(String[] args) throws IOException {
         String str = "";
         int count = 1;
-        //Math.round() 
+
         while ((str=br.readLine())!=null) {
             double mile = 0;
             double mph = 0;
@@ -29,7 +29,7 @@ public class Main {
             mile = (round*rotate)/63360;
             mph = (mile/second)*3600;
 
-            sb.append("Trip #").append(count+": ").append(String.format("%.2f ",mile)).append(String.format("%.2f\n",mph));
+            sb.append(String.format("Trip #%d: %.2f %.2f\n",count, mile, mph));
             count++;
         }
         bw.write(sb.toString());
