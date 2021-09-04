@@ -6,7 +6,7 @@
 | :--: | :--------------------------: | :-----------------: | :---------:  | :------: |:---------------:|
 | bronze5 | [Code](./boj/bronze5) | 8 | 62 | 62 | ![status][DONE] |
 | bronze4 | [Code](./boj/bronze4) | 1 | 48 | 112 | ![status][Doing] |
-| bronze3 | [Code](./boj/bronze3) | 1 | 19 | 412 | ![status][Doing] |
+| bronze3 | [Code](./boj/bronze3) | 1 | 30 | 412 | ![status][Doing] |
 
 ## 풀이 참고
 
