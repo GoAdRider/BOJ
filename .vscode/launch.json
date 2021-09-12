@@ -8,6 +8,13 @@
             "type": "java",
             "name": "Launch Main",
             "request": "launch",
+            "mainClass": "bronze3._2997.Main",
+            "projectName": "BOJ_94cd5298"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
             "mainClass": "bronze3._2985.Main",
             "projectName": "BOJ_94cd5298"
         },
