@@ -70,13 +70,19 @@ class TimeCalc{
     int globalMin=0;
 
     String calcTime(int[] hours, int[] mins, int[] secs){
+        String result = "";
         String sec = Integer.toString(secCalc(secs));
         String min = Integer.toString(minCalc(mins));
         String hour = Integer.toString(hourCalc(hours));
         sec = sec.length()<2? "0"+sec:sec;
         min = min.length()<2? "0"+min:min;
         hour = hour.length()<2? "0"+hour:hour;
-        return hour+":"+min+":"+sec;
+        result = hour+":"+min+":"+sec;
+        if(result.equals("00:00:00")){
+            return "24:00:00";
+        }else{
+            return result;
+        }
     }
 
     int secCalc(int[] secs){
