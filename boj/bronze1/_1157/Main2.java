@@ -6,7 +6,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 
-public class Main {
+public class Main2 {
     private static BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out)); 
     private static BufferedReader br = new BufferedReader(new InputStreamReader(System.in)); 
     private static StringBuilder sb = new StringBuilder();
@@ -18,20 +18,17 @@ public class Main {
             alphabet[space]++;
         }
         
-        boolean dupl = false;   // true ? 최대값 중복
-        int maxIndex = 0;
-        int maxNum = 0;
+        int[][] MaxNums = new int[2][2];    // firstMax : {index, value}, secondMax : {index, value}
         for (int i = 0; i < alphabet.length; i++) {
-            if(maxNum < alphabet[i]){
-                maxIndex = i;
-                maxNum = alphabet[i];
-                dupl = false;
-            }else if(maxNum == alphabet[i]){
-                dupl = true;
+            if(MaxNums[0][1] <= alphabet[i]){
+                MaxNums[1][0] = MaxNums[0][0];
+                MaxNums[1][1] = MaxNums[0][1];
+                MaxNums[0][0] = i;
+                MaxNums[0][1] = alphabet[i];
             }
         }
 
-        sb.append(dupl ? "?" : (char)(maxIndex+65));
+        sb.append(MaxNums[0][1] == MaxNums[1][1] ? "?" : (char)(65+MaxNums[0][0]));
         bw.write(sb.toString());
         bw.flush();
         bw.close();
