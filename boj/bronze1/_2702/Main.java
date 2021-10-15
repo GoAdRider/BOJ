@@ -22,7 +22,7 @@ public class Main {
             num2 = Integer.parseInt(st.nextToken());
 
             gcd = gcd(num1, num2);
-            sb.append(num1 * num2 / gcd+" ").append(gcd).append(System.lineSeparator());
+            sb.append(/*최소공배수*/num1 * num2 / gcd+" ").append(gcd).append(System.lineSeparator());
         }
 
         bw.write(sb.toString());
