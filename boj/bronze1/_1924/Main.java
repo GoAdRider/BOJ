@@ -15,15 +15,16 @@ public class Main {
         int[] daysEachMonth = {31,28,31,30,31,30,31,31,30,31,30,31};
 
         StringTokenizer st = new StringTokenizer(br.readLine());
-        int month = Integer.parseInt(st.nextToken());
+        int month = Integer.parseInt(st.nextToken())-1;
         int day = Integer.parseInt(st.nextToken());
 
         int sum = 0;
 
+
         for (int i = 0; i < month; i++) {
             sum+=daysEachMonth[i];
         }
-        sum = sum-daysEachMonth[month-1]+day;
+        sum += day;
 
         switch (sum%7) {
             case 0: bw.write(String.valueOf("SUN")); break;
