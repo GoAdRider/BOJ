@@ -5,8 +5,6 @@ import java.io.BufferedWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
-import java.util.ArrayList;
-import java.util.List;
 import java.util.StringTokenizer;
 
 public class Main {
@@ -15,7 +13,7 @@ public class Main {
     private static StringBuilder sb = new StringBuilder();
     public static void main(String[] args) throws IOException {
         int size = Integer.parseInt(br.readLine());
-        List<String> strList = new ArrayList();
+
         for (int i = 0; i < size; i++) {
             StringTokenizer st = new StringTokenizer(br.readLine());
             int til = st.countTokens();
@@ -24,6 +22,7 @@ public class Main {
             }
             sb.append("\n");
         }
+
         bw.write(sb.toString());
         bw.flush();
         bw.close();
@@ -32,7 +31,6 @@ public class Main {
     static String reverse(String str){
         int size = str.length();
         char[] charArr = str.toCharArray();
-        String result ="";
         StringBuilder sb = new StringBuilder();
 
         for (int i = size-1; i >= 0; i--) {
