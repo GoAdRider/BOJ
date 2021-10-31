@@ -26,7 +26,7 @@
 
 | 문제등급 | 코드 바로가기 | 상태 |
 | :-: | :-: | :-: |
-| **스택** | [Code](./boj/basic/_10828/) | ![status][DONE] |
+| **스택** | [Code](./boj/basic/_10828/Main.java) | ![status][DONE] |
 | **단어 뒤집기** | [Code](./boj/basic/_9093) | ![status][DONE] |
 | **괄호** | [Code](./boj/basic/_9012) | ![status][DONE] |
 | **스택 수열** | [Code](./boj/basic/_1874) | ![status][DONE] |
