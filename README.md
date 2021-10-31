@@ -6,9 +6,9 @@
 | :-: | :-: | :-: | :-: |
 | bronze5 | [Code](./boj/bronze5) | 62 | ![status][DONE] |
 | bronze4 | [Code](./boj/bronze4) | 48 | ![status][DONE] |
-| bronze3 | [Code](./boj/bronze3) | 42 | ![status][DONE] |
-| bronze2 | [Code](./boj/bronze2) | 30 | ![status][DONE] |
-| bronze1 | [Code](./boj/bronze1) | 4 | ![status][Doing] |
+| bronze3 | [Code](./boj/bronze3) | 49 | ![status][DONE] |
+| bronze2 | [Code](./boj/bronze2) | 31 | ![status][DONE] |
+| bronze1 | [Code](./boj/bronze1) | 20 | ![status][Doing] |
 
 <br/>
 
@@ -27,8 +27,8 @@
 | 문제등급 | 코드 바로가기 | 상태 |
 | :-: | :-: | :-: |
 | **스택** | [Code](./boj/basic/_10828) | ![status][DONE] |
-| **단어 뒤집기** |  | ![status][PREPARING] |
-| **괄호** |  | ![status][PREPARING] |
+| **단어 뒤집기** | [Code](./boj/basic/_9093) | ![status][DONE] |
+| **괄호** | [Code](./boj/basic/_9012) | ![status][DONE] |
 | **스택 수열** |  | ![status][PREPARING] |
 | **에디터** |  | ![status][PREPARING] |
 | **큐** |  | ![status][PREPARING] |
