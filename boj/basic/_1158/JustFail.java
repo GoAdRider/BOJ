@@ -65,8 +65,8 @@ class Josephus{
     }
 
     protected void sort(){
-        if(cs+1 > size()){
-            survived();
+        if(cs-transferNum+1 > dataNum){
+            survived();     // 남은 데이터 처리
             return;
         }
         
@@ -84,18 +84,19 @@ class Josephus{
             workNum++;
         }
 
+        dataNum = dataNum-workNum;   // 남은 처리해야할 데이터 개수 세팅
         Arrays.sort(store);
 
-        cs = cs-size();
-        cs = cs+transferNum;    // 다음 커서 세팅
-        dataNum = dataNum-workNum;   // 남은 처리해야할 데이터 개수 세팅
-        
-        if(cs+1 > size()){
+        cs = cs-size();     // 다음 커서 세팅 1
+
+        if(cs+1 > dataNum){ // 다음 커서 세팅 범위보다 처리해야 할 데이터가 적다면?
             survived();     // 남은 데이터 처리
             return;
-        }else{
-            sort();
         }
+
+        cs = cs+transferNum;    // 다음 커서 세팅2
+        
+        sort();
     }
 
     private void survived() {
