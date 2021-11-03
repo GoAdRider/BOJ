@@ -1,7 +1,5 @@
 package basic._1158;
 
-// 반례 : 20 12 => 사이클이 여러번 돌수 있지만 그 부분을 고려해서 설계를 하지 않음.
-
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.IOException;
@@ -10,7 +8,7 @@ import java.io.OutputStreamWriter;
 import java.util.Arrays;
 import java.util.StringTokenizer;
 
-public class JustFail {
+public class Main {
     private static BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out)); 
 	private static BufferedReader br = new BufferedReader(new InputStreamReader(System.in)); 
     private static StringBuilder sb = new StringBuilder();	
@@ -67,11 +65,6 @@ class Josephus{
     }
 
     protected void sort(){
-        if(cs-transferNum+1 > dataNum){
-            survived();     // 남은 데이터 처리
-            return;
-        }
-        
         double temp = (cs-transferNum)%times;
         temp = (dataNum - temp)/times;
         int condition = (int)Math.ceil(temp);
@@ -86,28 +79,13 @@ class Josephus{
             workNum++;
         }
 
-        dataNum = dataNum-workNum;   // 남은 처리해야할 데이터 개수 세팅
-        Arrays.sort(store);
-
-        cs = cs-size();     // 다음 커서 세팅 1
-
-        if(cs+1 > dataNum){ // 다음 커서 세팅 범위보다 처리해야 할 데이터가 적다면?
-            survived();     // 남은 데이터 처리
-            return;
-        }
-
-        cs = cs+transferNum;    // 다음 커서 세팅2
+        dataNum = dataNum-workNum;      // 남은 처리해야할 데이터 개수 세팅
+        cs = cs%size()+transferNum;     // 다음 커서 세팅
         
+        if(dataNum == 0) return;
+
+        Arrays.sort(store);
         sort();
-    }
-
-    private void survived() {
-        int i  = size()-1;
-
-        while(dataNum-- != 0){
-            transfer[i] = store[i];
-            i--;
-        }
     }
 
     protected int[] outPut(){
