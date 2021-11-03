@@ -32,7 +32,7 @@
 | **스택 수열** | [Code](./boj/basic/_1874/Main.java) | ![status][DONE] |
 | **에디터** | [Code](./boj/basic/_1406/Main.java) | ![status][DONE] |
 | **큐** | [Code](./boj/basic/_10845/Main.java) | ![status][DONE] |
-| **조세퍼스 문제** |  | ![status][PREPARING] |
+| **요세푸스 문제** | [Code](./boj/basic/_10845) | ![status][DONE] |
 | **덱** |  | ![status][PREPARING] |
 
 <br/>
