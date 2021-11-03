@@ -87,7 +87,6 @@ class Josephus{
         Arrays.sort(store);
 
         cs = cs-size();
-
         cs = cs+transferNum;    // 다음 커서 세팅
         dataNum = dataNum-workNum;   // 남은 처리해야할 데이터 개수 세팅
         
