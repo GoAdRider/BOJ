@@ -1,5 +1,7 @@
 package basic._1158;
 
+// 반례 : 20 12 => 사이클이 여러번 돌수 있지만 그 부분을 고려해서 설계를 하지 않음.
+
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.IOException;
