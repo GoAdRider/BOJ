@@ -26,14 +26,14 @@
 
 | 문제등급 | 코드 바로가기 | 상태 |
 | :-: | :-: | :-: |
-| **스택** | [Code](./boj/basic/_10828/Main.java) | ![status][DONE] |
-| **단어 뒤집기** | [Code](./boj/basic/_9093/Main.java) | ![status][DONE] |
-| **괄호** | [Code](./boj/basic/_9012/Main.java) | ![status][DONE] |
-| **스택 수열** | [Code](./boj/basic/_1874/Main.java) | ![status][DONE] |
-| **에디터** | [Code](./boj/basic/_1406/Main.java) | ![status][DONE] |
-| **큐** | [Code](./boj/basic/_10845/Main.java) | ![status][DONE] |
-| **요세푸스 문제** | [Code](./boj/basic/_1158) | ![status][DONE] |
-| **덱** | [Code](./boj/basic/_10866/Main.java) | ![status][DONE] |
+| **스택** | [Code](./boj/basic/datastructure200/_10828/Main.java) | ![status][DONE] |
+| **단어 뒤집기** | [Code](./boj/basic/datastructure200/_9093/Main.java) | ![status][DONE] |
+| **괄호** | [Code](./boj/basic/datastructure200/_9012/Main.java) | ![status][DONE] |
+| **스택 수열** | [Code](./boj/basic/datastructure200/_1874/Main.java) | ![status][DONE] |
+| **에디터** | [Code](./boj/basic/datastructure200/_1406/Main.java) | ![status][DONE] |
+| **큐** | [Code](./boj/basic/datastructure200/_10845/Main.java) | ![status][DONE] |
+| **요세푸스 문제** | [Code](./boj/basic/datastructure200/_1158) | ![status][DONE] |
+| **덱** | [Code](./boj/basic/datastructure200/_10866/Main.java) | ![status][DONE] |
 
 <br/>
 
