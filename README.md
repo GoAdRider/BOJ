@@ -27,7 +27,7 @@
 | 카테고리 | 코드 바로가기 | 해결문제수 | 상태 |
 | :-: | :-: | :-: | :-: |
 | 200-자료구조1 | [바로가기](./boj/basic/datastructure200) | 8/8 | ![status][DONE] |
-| 201-자료구조1(연습) | - | 0/4 | ![status][PREPARING] |
+| 201-자료구조1(연습) | [바로가기](./boj/basic/datastructure201) | 0/4 | ![status][PREPARING] |
 | 203-자료구조1(참고) | - | 0/9 | ![status][PREPARING] |
 | 300-수학1 | - | 0/9 | ![status][PREPARING] |
 | 301-수학1(연습) | - | 0/6 | ![status][PREPARING] |
