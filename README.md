@@ -33,7 +33,7 @@
 | **에디터** | [Code](./boj/basic/_1406/Main.java) | ![status][DONE] |
 | **큐** | [Code](./boj/basic/_10845/Main.java) | ![status][DONE] |
 | **요세푸스 문제** | [Code](./boj/basic/_1158) | ![status][DONE] |
-| **덱** |  | ![status][PREPARING] |
+| **덱** | [Code](./boj/basic/_10866/Main.java) | ![status][DONE] |
 
 <br/>
 
