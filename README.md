@@ -22,18 +22,19 @@
 
 <br/>
 
-### [ 자료구조1 ]
+### [ 알고리즘 기초 ]
 
-| 문제등급 | 코드 바로가기 | 상태 |
-| :-: | :-: | :-: |
-| **스택** | [Code](./boj/basic/datastructure200/_10828/Main.java) | ![status][DONE] |
-| **단어 뒤집기** | [Code](./boj/basic/datastructure200/_9093/Main.java) | ![status][DONE] |
-| **괄호** | [Code](./boj/basic/datastructure200/_9012/Main.java) | ![status][DONE] |
-| **스택 수열** | [Code](./boj/basic/datastructure200/_1874/Main.java) | ![status][DONE] |
-| **에디터** | [Code](./boj/basic/datastructure200/_1406/Main.java) | ![status][DONE] |
-| **큐** | [Code](./boj/basic/datastructure200/_10845/Main.java) | ![status][DONE] |
-| **요세푸스 문제** | [Code](./boj/basic/datastructure200/_1158) | ![status][DONE] |
-| **덱** | [Code](./boj/basic/datastructure200/_10866/Main.java) | ![status][DONE] |
+| 카테고리 | 코드 바로가기 | 해결문제수 | 상태 |
+| :-: | :-: | :-: | :-: |
+| 200-자료구조1 | [바로가기](./boj/basic/datastructure200) | 8/8 | ![status][DONE] |
+| 201-자료구조1(연습) | - | 0/4 | ![status][PREPARING] |
+| 203-자료구조1(참고) | - | 0/9 | ![status][PREPARING] |
+| 300-수학1 | - | 0/9 | ![status][PREPARING] |
+| 301-수학1(연습) | - | 0/6 | ![status][PREPARING] |
+| 303-수학1(참고) | - | 0/4 | ![status][PREPARING] |
+| 400-다이나믹 프로그래밍1 | - | 0/14 | ![status][PREPARING] |
+| 401-다이나믹 프로그래밍1(연습) | - | 0/12 | ![status][PREPARING] |
+| 402-다이나믹 프로그래밍1(도전) | - | 0/3 | ![status][PREPARING] |
 
 <br/>
 
