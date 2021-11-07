@@ -4,11 +4,11 @@
 
 | 문제등급 | 코드 바로가기 | 해결 건 | 상태 |
 | :-: | :-: | :-: | :-: |
-| bronze5 | [Code](./boj/bronze5) | 62 | ![status][DONE] |
+| bronze5 | [Code](./boj/bronze5) | 63 | ![status][DONE] |
 | bronze4 | [Code](./boj/bronze4) | 48 | ![status][DONE] |
 | bronze3 | [Code](./boj/bronze3) | 49 | ![status][DONE] |
 | bronze2 | [Code](./boj/bronze2) | 31 | ![status][DONE] |
-| bronze1 | [Code](./boj/bronze1) | 20 | ![status][Doing] |
+| bronze1 | [Code](./boj/bronze1) | 21 | ![status][Doing] |
 
 <br/>
 
