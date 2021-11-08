@@ -5,6 +5,10 @@ import java.io.InputStreamReader;
 import java.io.IOException;
 import java.util.StringTokenizer;
 import java.util.Stack;
+
+// 오큰수
+// 스택풀이
+// 출처 : https://st-lab.tistory.com/196
  
 public class Main2 {
  
