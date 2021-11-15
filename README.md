@@ -6,7 +6,7 @@
 | :-: | :-: | :-: | :-: |
 | bronze5 | [Code](./boj/bronze5) | 63 | ![status][DONE] |
 | bronze4 | [Code](./boj/bronze4) | 48 | ![status][DONE] |
-| bronze3 | [Code](./boj/bronze3) | 53 | ![status][DONE] |
+| bronze3 | [Code](./boj/bronze3) | 54 | ![status][DONE] |
 | bronze2 | [Code](./boj/bronze2) | 31 | ![status][DONE] |
 | bronze1 | [Code](./boj/bronze1) | 21 | ![status][Doing] |
 
