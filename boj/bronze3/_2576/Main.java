@@ -22,9 +22,8 @@ public class Main {
         }
 
         int sum =0;
-        int min =0;
+        int min =100;
         for (int i = 0; i < intArr.length; i++) {
-            System.out.println(intArr[i]);
             if (intArr[i]==0) {
                 break;
             }
