@@ -15,9 +15,11 @@ public class Main {
 	private static StringBuilder sb = new StringBuilder();	
     public static void main(String[] args) throws IOException {
         int[] intArr = new int[7];
+        int n = 0;
         int j = 0;
+
         for (int i = 0; i < intArr.length; i++) {
-            int n = Integer.parseInt(br.readLine());
+            n = Integer.parseInt(br.readLine());
             if(n%2 == 1) intArr[j++] = n;
         }
 
@@ -32,7 +34,7 @@ public class Main {
         }
 
         if (sum == 0) {
-            bw.write(-1);
+            bw.write(String.valueOf("-1"));
         } else {
             sb.append(sum).append("\n").append(min);
             bw.write(sb.toString());
