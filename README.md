@@ -6,8 +6,8 @@
 | :-: | :-: | :-: | :-: |
 | bronze5 | [Code](./boj/bronze5) | 63 | ![status][DONE] |
 | bronze4 | [Code](./boj/bronze4) | 48 | ![status][DONE] |
-| bronze3 | [Code](./boj/bronze3) | 54 | ![status][DONE] |
-| bronze2 | [Code](./boj/bronze2) | 31 | ![status][DONE] |
+| bronze3 | [Code](./boj/bronze3) | 62 | ![status][DONE] |
+| bronze2 | [Code](./boj/bronze2) | 34 | ![status][DONE] |
 | bronze1 | [Code](./boj/bronze1) | 21 | ![status][Doing] |
 
 <br/>
@@ -28,7 +28,7 @@
 | :-: | :-: | :-: | :-: |
 | 200-자료구조1 | [바로가기](./boj/basic/datastructure200) | 8/8 | ![status][DONE] |
 | 201-자료구조1(연습) | [바로가기](./boj/basic/datastructure201) | 2.5/4 | ![status][Doing] |
-| 203-자료구조1(참고) | [바로가기](./boj/basic/datastructure203) | 1/9 | ![status][Doing] |
+| 203-자료구조1(참고) | [바로가기](./boj/basic/datastructure203) | 2/9 | ![status][Doing] |
 | 300-수학1 | - | 0/9 | ![status][PREPARING] |
 | 301-수학1(연습) | - | 0/6 | ![status][PREPARING] |
 | 303-수학1(참고) | - | 0/4 | ![status][PREPARING] |
