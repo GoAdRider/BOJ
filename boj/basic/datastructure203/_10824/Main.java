@@ -1,4 +1,4 @@
-package bronze3._10824;
+package basic.datastructure203._10824;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
