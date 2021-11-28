@@ -1,12 +1,12 @@
 # [ 자료구조1(참고) ] - 203
-## 상태 : 3/9
+## 상태 : 4/9
 
 | 문제등급 | 코드 바로가기 | 상태 |
 | :-: | :-: | :-: |
 | **후위 표기식2** | - | ![status][PREPARING] |
 | **후위 표기식** | - | ![status][PREPARING] |
 | **알파벳 개수** | [Code](./_10808/Main.java) | ![status][DONE] |
-| **알파벳 찾기** | - | ![status][PREPARING] |
+| **알파벳 찾기** | [Code](./_10809/Main.java) | ![status][DONE] |
 | **문자열 분석** | [Code](./_10820/Main.java) | ![status][DONE] |
 | **단어 길이 재기** | [Code](./_2743/Main.java) | ![status][DONE] |
 | **ROT13** | - | ![status][PREPARING] |
