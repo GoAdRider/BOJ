@@ -1,5 +1,5 @@
 # [ 자료구조1(참고) ] - 203
-## 상태 : 4/9
+## 상태 : 6/9
 
 | 문제등급 | 코드 바로가기 | 상태 |
 | :-: | :-: | :-: |
@@ -9,8 +9,8 @@
 | **알파벳 찾기** | [Code](./_10809/Main.java) | ![status][DONE] |
 | **문자열 분석** | [Code](./_10820/Main.java) | ![status][DONE] |
 | **단어 길이 재기** | [Code](./_2743/Main.java) | ![status][DONE] |
-| **ROT13** | - | ![status][PREPARING] |
-| **네 수** | - | ![status][PREPARING] |
+| **ROT13** | [Code](./_11655/Main.java) | ![status][DONE] |
+| **네 수** | [Code](./_10824/Main.java) | ![status][DONE] |
 | **접미사 배열** | - | ![status][PREPARING] |
 
 [PREPARING]: https://img.shields.io/badge/-준비%20중-B31B1B
