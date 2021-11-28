@@ -8,7 +8,7 @@
 | **알파벳 개수** | [Code](./_10808/Main.java) | ![status][DONE] |
 | **알파벳 찾기** | - | ![status][PREPARING] |
 | **문자열 분석** | [Code](./_10820/Main.java) | ![status][DONE] |
-| **단어 길이 재기** | - | ![status][PREPARING] |
+| **단어 길이 재기** | [Code](./_2743/Main.java) | ![status][PREPARING] |
 | **ROT13** | - | ![status][PREPARING] |
 | **네 수** | - | ![status][PREPARING] |
 | **접미사 배열** | - | ![status][PREPARING] |
