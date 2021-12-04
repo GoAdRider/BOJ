@@ -29,7 +29,7 @@
 | 200-자료구조1 | [바로가기](./boj/basic/datastructure200) | 8/8 | ![status][DONE] |
 | 201-자료구조1(연습) | [바로가기](./boj/basic/datastructure201) | 2.5/4 | ![status][Doing] |
 | 203-자료구조1(참고) | [바로가기](./boj/basic/datastructure203) | 7/9 | ![status][Doing] |
-| 300-수학1 | [바로가기](./boj/basic/mathmatics300) | 2/9 | ![status][Doing] |
+| 300-수학1 | [바로가기](./boj/basic/mathmatics300) | 3/9 | ![status][Doing] |
 | 301-수학1(연습) | - | 0/6 | ![status][PREPARING] |
 | 303-수학1(참고) | - | 0/4 | ![status][PREPARING] |
 | 400-다이나믹 프로그래밍1 | - | 0/14 | ![status][PREPARING] |
