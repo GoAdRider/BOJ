@@ -1,5 +1,5 @@
 # [ 수학 1 ] - 300
-## 상태 : 2/9
+## 상태 : 3/9
 
 | 문제등급 | 코드 바로가기 | 상태 |
 | :-: | :-: | :-: |
@@ -10,7 +10,7 @@
 | **소수 구하기** | - | ![status][PREPARING] |
 | **골드바흐의 추측** | - | ![status][PREPARING] |
 | **팩토리얼** | - | ![status][PREPARING] |
-| **팩토리얼 0의 개수** | - | ![status][PREPARING] |
+| **팩토리얼 0의 개수** | [Code](./_1676/Main.java) | ![status][DONE] |
 | **조합 0의 개수** | - | ![status][PREPARING] |
 
 [PREPARING]: https://img.shields.io/badge/-준비%20중-B31B1B
