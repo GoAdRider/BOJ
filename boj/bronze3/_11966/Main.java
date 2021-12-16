@@ -6,6 +6,9 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 
+// 2의 제곱인가?
+// 비트표현 풀이
+
 public class Main {
     private static BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out)); 
 	private static BufferedReader br = new BufferedReader(new InputStreamReader(System.in)); 
