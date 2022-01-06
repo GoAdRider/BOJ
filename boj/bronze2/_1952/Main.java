@@ -8,6 +8,7 @@ import java.io.OutputStreamWriter;
 import java.util.StringTokenizer;
 
 // 달팽이 2
+// 수학적 접근
 
 public class Main {
     private static BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out)); 
