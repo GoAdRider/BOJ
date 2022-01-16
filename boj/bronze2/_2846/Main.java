@@ -17,13 +17,11 @@ public class Main {
         int size = Integer.parseInt(br.readLine());
         StringTokenizer st = new StringTokenizer(br.readLine());
         int[] distance = new int[2];
-        int pre=0;
+        int pre=Integer.parseInt(st.nextToken());
+        distance[0] = pre;
         int max=0;
-        for (int i = 0; i < size; i++) {
+        for (int i = 0; i < size-1; i++) {
             int pi = Integer.parseInt(st.nextToken());
-            if(pi > pre && distance[0] == 0){
-                distance[0] = pi;
-            }
 
             if(pi > pre){  // 오르막길이 지속되고 있을 때
                 pre = pi;
