@@ -23,6 +23,7 @@ public class Main {
             }
             sb.append("\n");
         }
+        sb.toString().toLowerCase();
         bw.write(sb.toString());
         bw.flush();
         bw.close();
