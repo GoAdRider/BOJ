@@ -1,0 +1,42 @@
+package bronze1._9506;
+
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.OutputStreamWriter;
+
+// 약수들의 합
+
+public class Main {
+    private static BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out)); 
+    private static BufferedReader br = new BufferedReader(new InputStreamReader(System.in)); 
+    private static StringBuilder sb = new StringBuilder();
+    public static void main(String[] args) throws IOException {
+        int n;
+        while((n=Integer.parseInt(br.readLine()))!=-1){
+            StringBuilder sb2 = new StringBuilder();
+            int len=n/2+1;
+            int temp=1;
+            sb2.append(" = 1");
+            boolean check=true;
+            for (int i = 2; i < len; i++) {
+                if(n%i==0){
+                    temp+=i;
+                    if(temp<=n){
+                        sb2.append(" + ").append(i);
+                    }else{
+                        check=false;
+                        break;
+                    }
+                }
+            }
+            sb.append(n);
+            if(check) sb.append(sb2).append("\n");
+            else sb.append(" is NOT perfect.\n");
+        }
+        bw.write(sb.toString());
+        bw.flush();
+        bw.close();
+    }
+}
