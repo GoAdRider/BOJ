@@ -5,7 +5,6 @@ import java.io.BufferedWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
-import java.util.Stack;
 
 // 지영 공주님의 마법 거울
 
@@ -15,12 +14,10 @@ public class Main {
     private static StringBuilder sb = new StringBuilder();
     public static void main(String[] args) throws IOException {
         int n = Integer.parseInt(br.readLine());
-        Stack<String> st = new Stack();
         String[] sA= new String[n];
         for (int i = 0; i < n; i++) {
             String str = br.readLine();
             sA[i] = str;
-            st.push(str);
         }
 
         int k = Integer.parseInt(br.readLine());
@@ -37,8 +34,8 @@ public class Main {
                 sb.append("\n");
             }
         }else{
-            for (int i = 0; i < n; i++) {
-                sb.append(st.pop()).append("\n");
+            for (int i = n-1; i >= 0; i--) {
+                sb.append(sA[i]).append("\n");
             }
         }
 
