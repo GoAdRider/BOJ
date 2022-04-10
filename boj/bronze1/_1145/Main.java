@@ -20,12 +20,16 @@ public class Main {
 			intA[i]=Integer.parseInt(sA[i]);
 		}
 		
-		int cnt=0;
+		int cnt;
 		int result=1;
+        
+        loop:
 		while(true) {
-            for(int i=0;i<5;i++) cnt += result % intA[i] == 0 ? 1:0;
-            if(cnt>=3) break;
             cnt=0;
+            for(int i=0;i<5;i++) {
+                cnt += result % intA[i] == 0 ? 1:0;
+                if(cnt>=3) break loop;
+            }
 			result++;		
 		}
         bw.write(String.valueOf(result));
